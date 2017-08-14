@@ -1,0 +1,22 @@
+.gallary{
+  display: flex;
+  justify-content: center;
+}
+.gallary div{
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+}
+.gallary div img{
+  object-fit: fill;
+  background-size: cover;
+  width: 150px;
+}
+#preview {
+  display: flex;
+  justify-content: center;
+}
+#preview img{
+  height: 450px;
+  object-fit: fill;
+}
