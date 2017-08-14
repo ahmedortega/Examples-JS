@@ -1,0 +1,38 @@
+#div1{
+  text-align: center;
+  margin: 0 50px;
+  font-size: 70px;
+  color: red;
+  transition: all .5s ease;
+}
+.div2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.div2 ul{
+  background-color: #ccc;
+  width: 400px;
+  color: green;
+}
+.div2 ul li{
+  padding: 10px;
+  font-size: 20px;
+}
+
+#button{
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+  padding: 20px 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 10px 42%;
+}
+
+.active{
+  color: yellow;
+  background-color: #000;
+  text-align: center;
+  transition: all .8s esae;
+}
